@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+.top-bar {
+    background-color: green;
+    position: absolute;
+    padding: 0%;
+    margin: 0%;
+    height: 15%;
+    width: 100%;
+}
+
+.top-bar .logo {
+    position: absolute;
+    top:-10%;
+    left:0%;
+    display: block;
+    width: 140px;
+    height: 73px;
+}
+.top-bar-title {
+    font-family: 'Anton', cursive;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+
+.nav-menu1 a {
+    color: white;
+    font-family: 'Anton', cursive;
+    text-decoration: none;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    font-size: 15px;
+    cursor: pointer;
+}
+.nav-menu2 a {
+    color: white;
+    font-family: 'Anton', cursive;
+    text-decoration: none;
+    position: absolute;
+    top: 0%;
+    left: 28%;
+    font-size: 15px;
+    cursor: pointer;
+}
+.nav-menu3 a {
+    color: white;
+    font-family: 'Anton', cursive;
+    text-decoration: none;
+    position: absolute;
+    top: 0%;
+    right: 18%;
+    font-size: 15px;
+    cursor: pointer;
+}
+.nav-menu4 a {
+    color: white;
+    font-family: 'Anton', cursive;
+    text-decoration: none;
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.nav-menu5{
+    color: white;
+    font-family: 'Anton', cursive;
+    text-decoration: none;
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.nav-menu1 .nav-menu2 .nav-menu3 .nav-menu4{
+    list-style-type: none;
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    position: absolute;
+    top: 10%;
+    padding: 0%;
+    margin-top: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#customers {
+    font-family: 'Oswald',sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn1{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: #ffffff;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    font-family: 'Oswald',sans-serif;
+}
+.btn2{
+    background-color:#f44336;
+    border: none;
+    color: white;
+    padding: 08px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    font-family: 'Oswald',sans-serif;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border-radius: 8px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Anton',cursive;
+}
+
+.button1 {
+    background-color: green; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.row1{
+    font-family: 'Oswald',sans-serif;
+    font-size: 22px;
+}
+
+
+.success{
+    font-family: 'Oswald',sans-serif;
+}
+.cancel{
+    font-family: 'Oswald',sans-serif;
+}
